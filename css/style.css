@@ -11,11 +11,15 @@ a{
 	text-decoration:none;
 	color:#781a26;
 }
-
+footer a{
+	text-decoration:none;
+	color:#666666;
+}
 a:hover{
 	color:#666666;
 }
 
+a
 h2{
 	color:#781a26;
 }
@@ -29,13 +33,6 @@ h2{
 	margin:0 auto;
 	overflow:auto;
 	clear:both;
-}
-
-.main-header #logo{
-	width:45%;
-	margin:10px 0;
-	display:block;
-	transition: width 2s;
 }
 
 .main-header .main-nav{
@@ -72,14 +69,14 @@ h2{
 	border-radius:5px;
 }
 
-#content{
+#main{
 	width:70%;
 	float:left;
 	overflow:auto;
 	transition:width 1s;
 }
 
-#content article{
+#main article{
 	border-radius:5px;
 	background:#ffffff;
 	overflow:auto;
@@ -87,12 +84,12 @@ h2{
 	margin-top:10px;
 }
 
-#content article span{
+#main article span{
 	font-style:italic;
 	color:#000000;
 }
 
-#content a.readmore{
+#main a.readmore{
 	display:block;
 	float:right;
 	color:#ffffff;
@@ -101,26 +98,14 @@ h2{
 	border-radius:5px;
 }
 
-#content a.readmore:hover{
+#main a.readmore:hover{
 	background:#000000;
 }
 
-#sidebar{
-	width:30%;
-	float:left;
-}
-
-#sidebar .block{
-	border-radius:5px;
-	background:#ffffff;
-	overflow:auto;
-	padding:10px 15px;
-	margin:10px 0 0 10px;
-}
 
 footer{
 	background:#882433;
-	height:40px;
+	height:120px;
 	border:1px solid #c13046;
 	margin-top:10px;
 	border-radius:5px;
@@ -151,7 +136,7 @@ footer p{
 		transition: height 2s;
 	}
 	
-	#content{
+	#main{
 		width:100%;
 		float:none;
 
@@ -210,7 +195,7 @@ footer p{
 		display:block;
 	}
 	
-	#content{
+	#main{
 		width:100%;
 		float:none;
 	}
@@ -266,7 +251,7 @@ footer p{
 		display:block;
 	}
 	
-	#content{
+	#main{
 		width:100%;
 		float:none;
 	}
