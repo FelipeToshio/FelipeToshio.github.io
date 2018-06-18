@@ -1,0 +1,83 @@
+<!Doctype html>
+<html>
+	<head>
+		
+		<title>Felipe Toshio</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<script src="js/jquery.js"></script>
+		<script>
+			
+			var showWidth = 1;
+			if(showWidth == 1){
+				$(document).ready(function(){
+					$(window).resize(function(){
+						var width = $(window).width();
+						document.getElementById('output_width').innerHTML = "Window Width:"+width.toString();
+					});
+				} );
+			}
+		</script>
+		
+	</head>
+
+	<body>
+		<div id="output_width"></div>
+		<div id="container">
+			<header class="main-header">
+				<nav class ="main-nav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Knowledge</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="carousel">
+					<img id="img_1" class="carousel__img" src="images/1.jpg" alt="">
+					<img id="img_2" class="carousel__img" src="images/2.jpg" alt="">
+					<img id="img_3" class="carousel__img" src="images/3.png" alt="">
+
+				
+				</div>
+		</div>
+			</header>
+			<div id="main">
+				<div id="About">
+					<img id="foto" src="images/imagem.jpg" alt="Perfil" />
+					<p>Hello! My name is Felipe Toshio and I'm a web developer. Currently I study Computer Engineering at the Federal University of Itajubá and joined the junior company byron.solutions.</p>
+				</div>
+				<div id="Knowledge">
+					<div id="front_end">
+						<p>HTML 5</p>
+						<p>CSS3</p>
+						<p>JavaScript</p>
+					</div>
+					<div id="Back_end">
+						<p>PHP</p>
+						<p>SQL</p>
+						<p>VPS</p>
+						<p>WordPress</p>
+					</div>
+				</div>
+				<div id="contact">
+					<h2>CONTATO</h2>
+				
+					<form action="">
+						<input class="contact__text" type="text" name="" value="" placeholder="Name">
+						<input class="contact__text" type="text" name="" value="" placeholder="Email">
+						<textarea class="contact__text" placeholder="Message" name="" id="" cols="20" rows="10"></textarea>
+
+						<button class="button button--contact" type="input">ENVIAR </button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<footer>
+			<p>Copyright &copy; 2018 Resproject</p>
+		</footer>
+	</body>
+
+</html>
