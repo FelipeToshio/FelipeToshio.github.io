@@ -15,6 +15,26 @@ footer a{
 	text-decoration:none;
 	color:#666666;
 }
+#contact {
+	text-align:center;
+	background:#66ccff;
+	border-radius:5px;
+	border:1px #c13046 solid;
+}
+#About{
+	text-align:center;
+	background:#66ccff;
+	border-radius:5px;
+	border:1px #c13046 solid;
+}
+#About .foto{
+	border-radius:50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	width:35%;
+	height:35%;
+}
 a:hover{
 	color:#666666;
 }
@@ -29,11 +49,12 @@ h2{
 }
 
 #container{
-	width:80%;
+	width:95%;
 	margin:0 auto;
 	overflow:auto;
 	clear:both;
 }
+
 
 .main-header .main-nav{
 	background:#882433;
@@ -48,6 +69,12 @@ h2{
 	margin:0;
 	padding:0;
 }
+#Knowledge{
+	background:#66ccff;
+	border-radius:5px;
+	border:1px #c13046 solid;
+}
+
 
 .main-header .main-nav li{
 	color:#ffffff;
@@ -70,36 +97,11 @@ h2{
 }
 
 #main{
-	width:70%;
+	width:100%;
 	float:left;
 	overflow:auto;
 	transition:width 1s;
-}
-
-#main article{
-	border-radius:5px;
-	background:#ffffff;
-	overflow:auto;
-	padding:10px 20px;
-	margin-top:10px;
-}
-
-#main article span{
-	font-style:italic;
-	color:#000000;
-}
-
-#main a.readmore{
-	display:block;
-	float:right;
-	color:#ffffff;
-	padding: 5px 9px;
-	background:#c13046;
-	border-radius:5px;
-}
-
-#main a.readmore:hover{
-	background:#000000;
+	text-align:center;
 }
 
 
@@ -158,11 +160,6 @@ footer p{
 		width:95%;
 	}
 	
-	.main-header img#logo{
-		margin:auto;
-		display:block;
-		width:65%;
-	}
 	
 	.main-header .main-nav{
 		height:auto;
