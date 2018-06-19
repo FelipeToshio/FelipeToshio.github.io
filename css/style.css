@@ -37,8 +37,8 @@ footer a{
 #About .foto{
 	border-radius:50%;
 	border-style: solid;
-	border-color: black;
-	border-width: 5px;
+	border-color: #882433;
+	border-width: 3px;
 	width:20%;
 	height:20%;
 }
