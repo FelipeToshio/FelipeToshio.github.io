@@ -128,8 +128,8 @@ footer p{
 	border-width: 5px;
 	border-radius:5px;
 	margin:5px 0px 0px 0px;
-	width:99%;
-	height:400px;
+	width:90%;
+	height:90%;
 	float: center;
 	text-align:center;
 }
@@ -190,7 +190,13 @@ footer p{
 		width:100%;
 		float:none;
 	}
-	
+	.myCarousel{
+		width:70%;
+		height:70%;
+		transition: width 1s;
+		transition: height 1s;
+	}
+}
 /*smartphones (Portrait and Landscap) */
 @media only screen and (min-width : 240px) and (max-width : 568px){
 	
@@ -201,6 +207,7 @@ footer p{
 		display:block;
 		overflow:hidden;
 		width:99%;
+		transition: width 1s;
 	}	
 	
 	.main-header .main-nav ul{ 
@@ -231,5 +238,10 @@ footer p{
 		float:none;
 	}
 	
-	
+	.myCarousel{
+		width:70%;
+		height:70%;
+		transition: width 1s;
+		transition: height 1s;
+	}
 }
