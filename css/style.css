@@ -200,15 +200,15 @@ footer p{
 		float:none;
 	}
 	.myCarousel{
-		width:70%;
-		height:70%;
+		width:100%;
+		height:100%;
 		transition: width 1s;
 		transition: height 1s;
 	}
 	#About .foto{
 		width:35%;
 		height:35%;
-		border-width:3px;
+		border-width:2px;
 	}
 }
 /*smartphones (Portrait and Landscap) */
