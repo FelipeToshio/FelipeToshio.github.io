@@ -208,6 +208,7 @@ footer p{
 	#About .foto{
 		width:35%;
 		height:35%;
+		border-width:3px;
 	}
 }
 /*smartphones (Portrait and Landscap) */
@@ -259,5 +260,6 @@ footer p{
 	#About .foto{
 		width:35%;
 		height:35%;
+		border-width:3px;
 	}
 }
