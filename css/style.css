@@ -17,13 +17,13 @@ footer a{
 }
 #contact {
 	text-align:center;
-	background:#ccffff;
+	background:#D3D3D3;
 	border-radius:5px;
 	border:1px #c13046 solid;
 }
 #About{
 	text-align:center;
-	background:#ffffff;
+	background:#C0C0C0;
 	border-radius:5px;
 	border:1px #c13046 solid;
 	margin:5px 0px;	
@@ -71,7 +71,7 @@ h2{
 	padding:0;
 }
 #Knowledge{
-	background:#66ccff;
+	background:#A9A9A9;
 	border-radius:5px;
 	border:1px #c13046 solid;
 	margin:5px 0px;
