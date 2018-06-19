@@ -20,6 +20,9 @@ footer a{
 	background:#D3D3D3;
 	border-radius:5px;
 	border:1px #c13046 solid;
+	border-style: solid;
+	border-color: #882433;
+	border-width: 3px;
 }
 #About{
 	text-align:center;
@@ -27,6 +30,9 @@ footer a{
 	border-radius:5px;
 	border:1px #c13046 solid;
 	margin:5px 0px;	
+	border-style: solid;
+	border-color: #882433;
+	border-width: 3px;
 }
 #About .foto{
 	border-radius:50%;
@@ -75,6 +81,9 @@ h2{
 	border-radius:5px;
 	border:1px #c13046 solid;
 	margin:5px 0px;
+	border-style: solid;
+	border-color: #882433;
+	border-width: 3px;
 }
 
 
@@ -124,8 +133,8 @@ footer p{
 
 .myCarousel{
 	border-style: solid;
-	border-color: black;
-	border-width: 5px;
+	border-color: #882433;
+	border-width: 3px;
 	border-radius:5px;
 	margin:5px 0px 0px 0px;
 	width:70%;
