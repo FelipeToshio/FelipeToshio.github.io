@@ -17,7 +17,7 @@ footer a{
 }
 #contact {
 	text-align:center;
-	background:#D3D3D3;
+	background:#C0C0C0;
 	border-radius:5px;
 	border:1px #c13046 solid;
 	border-style: solid;
@@ -77,7 +77,7 @@ h2{
 	padding:0;
 }
 #Knowledge{
-	background:#A9A9A9;
+	background:#C0C0C0;
 	border-radius:5px;
 	border:1px #c13046 solid;
 	margin:5px 0px;
@@ -134,7 +134,7 @@ footer p{
 .myCarousel{
 	border-style: solid;
 	border-color: #882433;
-	border-width: 3px;
+	border-width: 2px;
 	border-radius:5px;
 	margin:5px 0px 0px 0px;
 	width:70%;
