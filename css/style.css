@@ -4,7 +4,7 @@ body{
 	font-family:arial, sans-serif;
 	color:#000000;
 	line-height:1.7em;
-	text-align:left;
+	text-align:center;
 }
 
 a{
@@ -26,6 +26,7 @@ footer a{
 	background:#66ccff;
 	border-radius:5px;
 	border:1px #c13046 solid;
+	margin:5px 0px;	
 }
 #About .foto{
 	border-radius:50%;
@@ -39,7 +40,6 @@ a:hover{
 	color:#666666;
 }
 
-a
 h2{
 	color:#781a26;
 }
@@ -49,8 +49,8 @@ h2{
 }
 
 #container{
-	width:95%;
-	margin:0 auto;
+	width:100%;
+	margin:1px 0px;;
 	overflow:auto;
 	clear:both;
 }
@@ -59,6 +59,7 @@ h2{
 .main-header .main-nav{
 	background:#882433;
 	height:40px;
+	width:100%;
 	border-radius:5px;
 	border:1px #c13046 solid;
 	
@@ -73,13 +74,14 @@ h2{
 	background:#66ccff;
 	border-radius:5px;
 	border:1px #c13046 solid;
+	margin:5px 0px;
 }
 
 
 .main-header .main-nav li{
 	color:#ffffff;
 	display:inline;
-	float:left;
+	float:center;
 	margin-right:3px;
 }
 
@@ -98,7 +100,7 @@ h2{
 
 #main{
 	width:100%;
-	float:left;
+	float:center;
 	overflow:auto;
 	transition:width 1s;
 	text-align:center;
@@ -120,18 +122,21 @@ footer p{
 	text-align:center;
 }
 
+.myCarousel{
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius:5px;
+	margin:5px 0px 0px 0px;
+	width:99%;
+	height:400px;
+	float: center;
+	text-align:center;
+}
+
+
 /*Tablet/Ipads (Portrait and Landscap) */
 @media only screen and (min-width : 768px) and (max-width : 960px){
-	#container{
-		width:95%;
-	}
-	
-	.main-header img#logo{
-		margin:auto;
-		display:block;
-		width:65%;
-		transition: width 2s;
-	}
 	
 	.main-header .main-nav{
 		display:block;
@@ -144,22 +149,11 @@ footer p{
 
 	}
 	
-	#sidebar{
-		width:100%;
-		float:none;
-	}
-	
-	#sidebar .block{
-		margin-left:0;
-	}
+
 }
 
 /*smaller Tablets(Portrait and Landscap) */
 @media only screen and (min-width : 569px) and (max-width : 767px){
-	#container{
-		width:95%;
-	}
-	
 	
 	.main-header .main-nav{
 		height:auto;
@@ -197,26 +191,10 @@ footer p{
 		float:none;
 	}
 	
-	#sidebar{
-		width:100%;
-		float:none;
-	}
-	
-	#sidebar .block{
-		margin-left:0;
-	}
-}
 /*smartphones (Portrait and Landscap) */
 @media only screen and (min-width : 240px) and (max-width : 568px){
-	#container{
-		width:95%;
-	}
 	
-	.main-header img#logo{
-		margin:auto;
-		display:block;
-		width:95%;
-	}
+	
 	
 	.main-header .main-nav{
 		height:auto;
@@ -253,12 +231,5 @@ footer p{
 		float:none;
 	}
 	
-	#sidebar{
-		width:100%;
-		float:none;
-	}
 	
-	#sidebar .block{
-		margin-left:0;
-	}
 }
