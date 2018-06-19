@@ -253,13 +253,13 @@ footer p{
 	}
 	
 	.myCarousel{
-		width:70%;
-		height:70%;
+		width:100%;
+		height:100%;
 		transition: width 2s, height 2s;
 	}
 	#About .foto{
 		width:35%;
 		height:35%;
-		border-width:3px;
+		border-width:2px;
 	}
 }
