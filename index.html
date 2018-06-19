@@ -6,13 +6,34 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="js/jquery.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			function slide1(){
+			document.getElementById('id').src="images/1.jpg";
+			setTimeout("slide2()", 5000)
+			}
+			  
+			function slide2(){
+			document.getElementById('id').src="images/2.jpg";
+			setTimeout("slide3()", 5000)
+			}
+			  
+			function slide3(){
+			document.getElementById('id').src="images/3.jpg";
+			setTimeout("slide1()", 5000)
+			}
+		</script>
+		
 		<script>
 			
 			var showWidth = 1;
 			if(showWidth == 1){
-				$(document).ready(function(){
+				$(document).ready(function(){https://media.discordapp.net/attachments/385998865351835648/458443184167452682/unknown.png?width=831&height=468
 					$(window).resize(function(){
 						var width = $(window).width();
 						document.getElementById('output_width').innerHTML = "Window Width:"+width.toString();
@@ -20,6 +41,7 @@
 				} );
 			}
 		</script>
+		
 		
 	</head>
 
@@ -35,16 +57,14 @@
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
-				<div class="carousel">
-					<img id="img_1" class="carousel__img" src="images/1.jpg" alt="">
-					<img id="img_2" class="carousel__img" src="images/2.jpg" alt="">
-					<img id="img_3" class="carousel__img" src="images/3.png" alt="">
-
 				
-				</div>
-		</div>
 			</header>
+		</div>
+			
 			<div id="main">
+				<body onLoad="slide1()">
+					<img id="id" class="myCarousel">
+				</body>
 				<div id="About" class="content">
 					<img class="foto" src="images/imagem.jpg" alt="Perfil" />
 					<p>Hello! My name is Felipe Toshio and I'm a web developer. Currently I study Computer Engineering at the Federal University of Itajubá and joined the junior company byron.solutions.</p>
